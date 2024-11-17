@@ -34,50 +34,32 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1.',
-        titulo: 'Introducción al aprendizaje en línea',
+        titulo: 'Técnicas de autoformación y aprendizaje autónomo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Características del aprendizaje en línea',
+            titulo: 'Técnicas para establecer metas y objetivos de aprendizaje',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Modalidades del aprendizaje en línea',
+            titulo: 'Estrategias de búsqueda y gestión de la información',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Interacción en entornos de aprendizaje en línea',
+            titulo: 'Uso de herramientas tecnológicas para el autoaprendizaje',
             hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Tecnologías para el aprendizaje en línea',
+            titulo: 'Técnicas de lectura comprensiva y toma de notas',
             hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Ventajas del aprendizaje en línea',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Desafíos del aprendizaje en línea',
-            hash: 't_1_6',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Tendencias actuales y futuras en el aprendizaje en línea',
-            hash: 't_1_7',
           },
         ],
       },
@@ -87,32 +69,7 @@ export default {
         numero: '2.',
         titulo: 'Introducción al aprendizaje en línea',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Plataformas de gestión del aprendizaje (LMS)',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Herramientas de comunicación y colaboración',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Herramientas para la creación de contenido digital',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Herramientas de evaluación en línea',
-            hash: 't_2_4',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema3',
@@ -125,28 +82,15 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Principios fundamentales de la gestión del tiempo',
+            titulo:
+              'Importancia de la evaluación personal en el proceso de aprendizaje',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo:
-              'Planificación y organización de tareas en entornos virtuales',
+            titulo: 'Técnicas de autoevaluación',
             hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo:
-              'Equilibrio entre la vida personal y profesional/estudiantil en la modalidad virtual',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Estrategias para evitar la procrastinación',
-            hash: 't_3_4',
           },
         ],
       },
@@ -176,7 +120,7 @@ export default {
       {
         icono: 'fas fa-file-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/Unidad 1__Competencias digitales.pdf',
+        download: 'downloads/Competencias digitales_U2.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -193,154 +137,253 @@ export default {
   referencias: [
     {
       referencia:
-        'Bates, T. (2015). Teaching in a digital age: Guidelines for designing teaching and learning. BCcampus.',
+        'Alcott, L. (2015). La importancia de la planificación: Estrategias para un día productivo. Editorial Gestión.',
+      link:
+        'https://www.gestioneditorial.com/planificacion-estrategias-productivas',
     },
     {
       referencia:
-        'Bautista Pérez, G., Forés Miravalles, A., & Borges Sáiz, F. (2016). Didáctica universitaria en entornos virtuales de enseñanza-aprendizaje. Narcea Ediciones.',
-    },
-    {
-      referencia: 'Bustinduy, I. (2015). La gestión del tiempo. Editorial UOC.',
-    },
-    {
-      referencia:
-        'Cenich, G. (2006). Propuesta de aprendizaje basado en proyecto y trabajo colaborativo: experiencia de un curso en línea. Red Revista Electrónica de Investigación Educativa.',
+        'Allen, D. (2006). Organízate con eficacia: El arte de la productividad sin estrés. Editorial Sirio.',
+      link: 'https://archive.org/details/organizate_con_eficacia',
     },
     {
       referencia:
-        'García, L. (2019). Productividad y gestión del tiempo: Principios y técnicas efectivas.',
+        'Andrade, H. & Brookhart, S. (2016). Autoevaluación en el aula: Estrategias prácticas para mejorar el aprendizaje. ASCD.',
+      link: 'https://www.ascd.org/autoevaluación-aprendizaje',
     },
     {
       referencia:
-        'Moore, M. G., & Kearsley, G. (2012). Distance education: A systems view of online learning (3rd ed.). Wadsworth Cengage Learning.',
+        'Bautista, G. (2015). Aprendizaje autónomo y tecnologías digitales. Universidad Oberta de Cataluña.',
+      link: 'https://openaccess.uoc.edu/handle/10609/45242',
     },
     {
       referencia:
-        "O'Driscoll, A., & Kaye, P. (2019). Los sistemas de gestión de aprendizaje: Modernización educativa y acceso eficiente al contenido. Editorial ABC.",
+        'Blanchard, K. & Johnson, S. (2009). El ejecutivo al minuto. HarperCollins.',
+      link: 'https://openlibrary.org/works/OL17367335W/El_ejecutivo_al_minuto',
     },
     {
       referencia:
-        'Organización para la Cooperación y el Desarrollo Económicos (OCDE). (2017). Manual para entornos de aprendizaje innovadores. Editorial UOC.',
+        'Burka, J. B. & Yuen, L. M. (2008). Procrastinación: Por qué dejamos las cosas para después. Addison Wesley.',
+      link: 'https://archive.org/details/procrastinacion',
     },
     {
       referencia:
-        'Pedraza, M. A. (2009). Los entornos virtuales de enseñanza-aprendizaje: propuesta pedagógica. El Cid Editor | Apuntes.',
+        'Covey, S. (2016). Los 7 hábitos de la gente altamente efectiva. Paidós.',
+      link:
+        'https://openlibrary.org/works/OL15693062W/Los_7_habitos_de_la_gente_almente_efectiva',
     },
     {
       referencia:
-        'Quijada Monroy, V. del C. (2014). Aprendizaje virtual. Editorial Digital UNID.',
+        'Dzib Moo, D. L. B. & Avila Alexander, R. (2023). Teoría Pedagógica: guía didáctica: (1 ed.). Colegio de Ciencias y Artes de Tabasco.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/230467',
     },
     {
       referencia:
-        'Ramos Ramos, P. (2014). Gestión del tiempo y planificación de tareas (2a ed.). Editorial ICB.',
+        'Fiore, N. (2007). El hábito de la procrastinación: Cómo superar el retraso y la postergación. Editorial Hachette.',
+      link: 'https://archive.org/details/elhbitodelaprocrastinacin',
     },
     {
       referencia:
-        'Ruiz Ospino, E. A., & Sánchez Fontalvo, I. M. (2019). ¿Qué piensan los profesores universitarios de los estilos de aprendizaje?. Editorial Unimagdalena.',
+        'García Aretio, L. (2017). Aprender a aprender: Autoformación y aprendizaje autónomo en la era digital. Editorial UNED.',
+      link: 'https://www.uned.es',
     },
     {
       referencia:
-        'Salmon, G. (2013). Moderación electrónica: la clave para la enseñanza y el aprendizaje en línea.',
+        'García León, J., García Martín, A., & Torres Picazo, M. (2015). gvSIG: guía para el aprendizaje autónomo.',
+      link: '',
     },
     {
       referencia:
-        'Sangrà Morer, A., & Girona Campillo, C. (2013). Los materiales de aprendizaje en contextos educativos virtuales: pautas para el diseño tecnopedagógico. Editorial UOC.',
+        'Gibbs, G. (2015). Evaluación del aprendizaje en educación superior. Universidad de Oxford.',
+      link: 'https://www.ox.ac.uk/evaluacion-aprendizaje',
     },
     {
       referencia:
-        'Torres Quiñones, A. (2015). La construcción de las estrategias de aprendizaje en la formación inicial del profesional de la educación desde los entornos virtuales de aprendizaje. Editorial Universitaria.',
+        'Goleman, D. (2018). Foco: El motor oculto de la excelencia. Casa aleatoria de pingüinos.',
+      link: 'https://archive.org/details/focodangoleman',
+    },
+    {
+      referencia:
+        'Hattie, J. & Timperley, H. (2017). El poder de la retroalimentación: Mejorando el rendimiento de los estudiantes. Revista de Investigación Educativa.',
+      link: 'https://www.reviewedresearch.org/feedback-power',
+    },
+    {
+      referencia:
+        'Herrera, J. (2015). Autonomía en el aprendizaje: Técnicas y estrategias. Educación Digital.',
+      link: 'https://educaciondigital.org/autonomia_aprendizaje/',
+    },
+    {
+      referencia:
+        'Leiva, F. (2018). Estrategias para un aprendizaje autónomo eficaz. Educaciones Digitales.',
+      link: 'http://www.educacionesdigitales.com/aprendizaje-autonomo/',
+    },
+    {
+      referencia:
+        'López, N., & Escudero, J. (2015). Evaluación y autoevaluación del aprendizaje: Nuevas perspectivas. Ediciones Universidad de Sevilla.',
+      link: 'https://www.us.es/evaluacion-aprendizaje',
+    },
+    {
+      referencia:
+        'Martín, A. (Coord.), Mateu Gordon, J. L. (Coord.) & Guede Cid, R. (Coord.). (2023). Construyendo la educación del futuro en áreas de ingeniería, economía y STEM: (1 ed.). Dykinson.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/250276',
+    },
+    {
+      referencia:
+        'Morales Cevallos, M. B. (Coord.) & Berbel Oller, P. (Coord.). (2024). Desafíos de la educación contemporánea: perspectivas formativas para una sociedad digital: (1 ed.). Dykinson.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/271711',
+    },
+    {
+      referencia:
+        'Morgenstern, J. (2004). Tiempo para ti: Cómo hacer tiempo para las cosas que importan. Simón y Schuster.',
+      link:
+        'https://openlibrary.org/works/OL2142060W/Time_Management_from_the_Inside_Out',
+    },
+    {
+      referencia:
+        'Muñoz Maya, N. (Il.). (2024). Educación y didáctica: hacia una ampliación del canon en las aulas: (1 ed.). Dykinson.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/264240',
+    },
+    {
+      referencia:
+        'Nicol, D. & Macfarlane-Dick, D. (2014). Principios de retroalimentación efectiva en la educación superior. Investigación Educativa.',
+      link: 'https://www.educationalresearch.org/efectivo-feedback',
+    },
+    {
+      referencia:
+        'Ortiz, J. M. & Ruíz, P. M. (2019). Técnicas de autoformación para entornos virtuales. Ediciones Académicas.',
+      link: 'http://www.edicionesacademicas.org/autoformacion/',
+    },
+    {
+      referencia:
+        'Panadero, E. (2017). Autoevaluación y coevaluación en el aprendizaje: Herramientas para la mejora continua. Prensa de la Universidad de Cambridge.',
+      link: 'https://www.cambridge.org/auto-evaluacion',
+    },
+    {
+      referencia:
+        'Pérez, A., & Fernández, M. (2020). Autoformación en la educación superior: Estrategias y técnicas. Biblioteca Digital Universitaria.',
+      link: 'https://bibliotecadigital.org/autoformacion-educacion-superior',
+    },
+    {
+      referencia:
+        'Prieto Castillo, D., Guevara Toledo, C. & Célleri Gomezcoello, A. (2023). Más allá de la defensa y el ataque. La evaluación como alternativa de aprendizaje: (1 ed.). Universidad del Azuay.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/233565',
+    },
+    {
+      referencia:
+        'Rodríguez, C. (2016). Habilidades para el aprendizaje autónomo. Editorial Innovación Educativa.',
+      link: 'http://innovacioneducativa.net/aprendizaje-autonomo/',
+    },
+    {
+      referencia:
+        'Rogero García, J. & Durán Heras, M. Á. (2009). La investigación sobre el uso del tiempo. CIS - Centro de Investigaciones Sociológicas.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/52033',
+    },
+    {
+      referencia:
+        'Sadler, D. R. (2010). Formas de retroalimentación que mejoran el rendimiento académico. Revista de Evaluación Educativa.',
+      link: 'https://www.journalofassessment.org/feedback-academic-rendimiento',
+    },
+    {
+      referencia:
+        'Solé, M. (2013). El papel de la motivación en el aprendizaje autónomo. Universidad de Barcelona.',
+      link: 'https://www.ub.edu/publicaciones/autoaprendizaje-motivacion',
+    },
+    {
+      referencia:
+        'Tracy, B. (2013). Tráguese ese sapo: 21 maneras de dejar de postergar y realizar más en menos tiempo. Editorial Empresa Activa.',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: 'Asincrónico',
+      termino: 'Aprendizaje autónomo',
       significado:
-        'Modalidad de aprendizaje en la que los estudiantes no requieren estar conectados al mismo tiempo, permitiendo mayor flexibilidad en sus horarios',
+        'Capacidad de dirigir y gestionar el propio proceso de aprendizaje, estableciendo metas, recursos y evaluando el progreso de manera independiente',
     },
     {
-      termino: 'Brecha digital',
+      termino: 'Autodisciplina',
       significado:
-        'Desigualdad en el acceso a recursos tecnológicos como internet o dispositivos adecuados, lo que limita la participación en el aprendizaje en línea',
+        'Habilidad de una persona para establecer y seguir rutinas y hábitos sin necesidad de supervisión externa',
     },
     {
-      termino: 'e-learning',
+      termino: 'Autoevaluación',
       significado:
-        'Modalidad educativa que utiliza tecnologías digitales e internet para impartir conocimientos, eliminando barreras geográficas y temporales, ofreciendo flexibilidad y accesibilidad a los estudiantes',
+        'Proceso mediante el cual una persona analiza y evalúa su propio desempeño o aprendizaje para identificar áreas de mejora',
     },
     {
-      termino: 'Flexibilidad',
+      termino: 'Autoformación',
       significado:
-        'Capacidad del aprendizaje en línea para permitir a los estudiantes acceder a los contenidos en cualquier momento y desde cualquier lugar',
+        'Proceso en el que una persona adquiere conocimientos y habilidades por iniciativa propia, sin depender exclusivamente de la instrucción formal',
     },
     {
-      termino: 'Gamificación',
+      termino: 'Calendario',
       significado:
-        'Uso de elementos de juego (puntos, recompensas) en el aprendizaje para motivar y enganchar a los estudiantes',
+        'Herramienta para la organización del tiempo que permite distribuir actividades, fechas y plazos a lo largo de un período definido',
     },
     {
-      termino: 'Gestión del tiempo',
+      termino: 'Diagrama de Gantt',
       significado:
-        'Capacidad para planificar y controlar cómo se dividen las horas de trabajo o estudio para aumentar la eficiencia y productividad',
+        'Herramienta visual para planificar y gestionar proyectos, mostrando las tareas en un cronograma y permitiendo organizar el tiempo de forma más eficaz',
     },
     {
-      termino: 'Grabación de sesiones',
+      termino: 'Evaluación formativa',
       significado:
-        'Funcionalidad de las plataformas de videoconferencia que permite registrar reuniones o clases para su revisión posterior',
+        'Tipo de evaluación continua durante el proceso de aprendizaje, que permite ajustar el enfoque y mejorar el desempeño antes de una evaluación final',
     },
     {
-      termino: 'Google Drive',
+      termino: 'Gestión del conocimiento',
       significado:
-        'Plataforma de almacenamiento en la nube que permite compartir archivos y colaborar en tiempo real en documentos, hojas de cálculo y presentaciones',
-    },
-    {
-      termino: 'Ley de Pareto (80/20)',
-      significado:
-        'Principio que afirma que el 80% de los resultados proviene del 20% del esfuerzo, sugiriendo centrarse en las actividades más importantes',
+        'Proceso de adquirir, organizar, compartir y aplicar el conocimiento de manera eficiente para mejorar el aprendizaje',
     },
     {
       termino: 'Matriz de Eisenhower',
       significado:
-        'Herramienta para priorizar tareas según su urgencia e importancia, organizándolas en cuatro cuadrantes',
+        'Herramienta para priorizar tareas dividiéndolas según su urgencia e importancia, ayudando a mejorar la gestión del tiempo',
     },
     {
-      termino: 'Picos de productividad',
+      termino: 'Metacognición',
       significado:
-        'Momentos del día en los que una persona tiene mayor energía y enfoque, lo que permite realizar tareas más demandantes de manera más eficiente',
+        'Capacidad de pensar sobre los propios procesos de pensamiento y aprendizaje, facilitando la autogestión del conocimiento y el ajuste de estrategias de aprendizaje',
     },
     {
-      termino: 'Plataforma LMS',
+      termino: 'Motivación intrínseca',
       significado:
-        'Sistema de gestión del aprendizaje que centraliza la distribución de contenido, la interacción y la evaluación en línea (ej., Moodle, Blackboard)',
+        'Impulso interno que mueve a una persona a aprender o realizar una actividad por el interés y satisfacción personal que le genera',
+    },
+    {
+      termino: 'Objetivos SMART',
+      significado:
+        'Metodología para establecer objetivos que sean específicos, medibles, alcanzables, relevantes y con un tiempo definido para su consecución',
+    },
+    {
+      termino: 'Planificación',
+      significado:
+        'Organización y diseño previo de las acciones o tareas que deben realizarse en un período determinado, con el fin de alcanzar objetivos específicos',
+    },
+    {
+      termino: 'Principio de Pareto',
+      significado:
+        'Regla que sugiere que el 80% de los resultados provienen del 20% de los esfuerzos, aplicado a la gestión del tiempo para centrarse en las actividades más productivas',
+    },
+    {
+      termino: 'Prioridad',
+      significado:
+        'Proceso de identificar y ordenar las tareas o actividades según su importancia o urgencia para una gestión eficaz del tiempo',
     },
     {
       termino: 'Procrastinación',
       significado:
-        'Acción de posponer tareas importantes, lo que afecta negativamente la productividad en entornos virtuales',
+        'Tendencia a postergar o retrasar tareas importantes en favor de otras actividades menos relevantes o placenteras',
     },
     {
-      termino: 'Técnica del Pomodoro',
+      termino: 'Reflexión',
       significado:
-        'Método de gestión del tiempo que divide el trabajo en intervalos de 25 minutos, seguidos de breves descansos, para mejorar la concentración',
+        'Proceso de análisis y pensamiento crítico sobre las acciones, aprendizajes o comportamientos para generar nuevas ideas o soluciones',
     },
     {
-      termino: 'Sincrónico',
+      termino: 'Retroalimentación',
       significado:
-        'Modalidad de aprendizaje en la que estudiantes y profesores interactúan en tiempo real a través de herramientas como videoconferencias',
-    },
-    {
-      termino: 'Slack',
-      significado:
-        'Plataforma de mensajería diseñada para equipos, que facilita la comunicación mediante la creación de canales temáticos y organizados',
-    },
-    {
-      termino: 'Trello',
-      significado:
-        'Herramienta de gestión de proyectos basada en el método Kanban, que permite organizar y visualizar tareas mediante tableros',
-    },
-    {
-      termino: 'Videoconferencia',
-      significado:
-        'Herramienta que permite la interacción en tiempo real entre personas mediante video y audio, simulando una reunión presencial en entornos virtuales',
+        'Información o respuestas que una persona recibe sobre su desempeño o proceso de aprendizaje, con el fin de mejorar o ajustar sus acciones futuras',
     },
   ],
   complementario: [

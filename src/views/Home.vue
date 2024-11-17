@@ -20,11 +20,11 @@
           //- Columna derecha con información
           .col-xl-6.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xl-4.ps-xl-5.py-xxl-5.text-start
-              p.home-main-title.text-uppercase Unidad 1. Introducción al trabajo en modalidad virtual
+              p.home-main-title.text-uppercase Unidad 2. Competencias de autoformación y autogestión <br>del aprendizaje
               h1.home-title.mb-4.mb-lg-5.text-uppercase Competencias Digitales
-              p.fs-18px.descripcion.mb-4 La unidad 1, “Competencias Digitales", en el contexto de aprendizaje virtual explora herramientas tecnológicas, gestión del tiempo y habilidades de autogestión. Los estudiantes desarrollan competencias para navegar eficazmente el e-learning, manejando plataformas como Moodle, Zoom y Google Docs, y aplicando estrategias de organización, como la técnica Pomodoro y listas de tareas. La unidad enfatiza flexibilidad, autonomía y manejo de desafíos en entornos digitales.
+              p.descripcion.mb-4 El aprendizaje autónomo permite dirigir el propio proceso educativo mediante técnicas de autoformación como la lectura, toma de notas y uso de tecnología. Sus características clave incluyen proactividad, autodirección, autorregulación y flexibilidad, fomentando la autonomía y la motivación interna. A través de la planificación de metas SMART y herramientas como la técnica Pomodoro, se facilita la gestión del tiempo. La autoevaluación permite ajustar el progreso, y las plataformas MOOC y Google Calendar apoyan este aprendizaje independiente.
               
-              p.fs-18px.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Adelante, cada herramienta y estrategia que dominen es un paso más hacia el éxito en el mundo digital!
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El momento de marcar la diferencia es ahora!
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
@@ -43,7 +43,7 @@
                 alt="Logo Tecnológica del Oriente"
               )
             .col-lg.px-0.d-none.d-lg-block
-              p.footer-text.mb-0 Este material puede ser distribuido, copiado y exhibido por terceros si se muestra en los créditos. No se puede obtener ningún beneficio comercial y las obras derivadas tienen que estar bajo los mismos términos de la licencia que el trabajo original.
+              p.footer-text.mb-0.text-gris Este material puede ser distribuido, copiado y exhibido por terceros si se muestra en los créditos. No se puede obtener ningún beneficio comercial y las obras derivadas tienen que estar bajo los mismos términos de la licencia que el trabajo original.
               
 </template>
 
@@ -141,7 +141,7 @@ export default {
   .iniciar-btn-text
     transition: all 0.25s ease-in-out
     background-color: #C252F0 !important
-    color: #391847!important
+    color: $white !important
   .icon
     transition: all 0.25s ease-in-out
     background-color: #6A2C83 !important

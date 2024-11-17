@@ -1,11 +1,10 @@
 <template lang="pug">
 .curso-main-container.creditos-vista
-  BannerInterno(:titulo="'UNIDAD 1. DERECHO CIVIL, GENERAL PERSONAS'" :subTitulo="'SÍNTESIS'")
+  BannerInterno(:titulo="'Unidad 2. Competencias de autoformación y autogestión del aprendizaje'" :subTitulo="'SÍNTESIS'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.fs-18px.mb-4.mb-md-5 La Unidad 1 introduce los fundamentos esenciales del Derecho Civil, una rama del derecho privado que regula las relaciones entre personas bajo un principio de igualdad. Se estudian los conceptos clave, las fuentes del Derecho Civil, y se distingue entre personas naturales y jurídicas, sentando una base sólida para entender su relevancia en la vida cotidiana, en ámbitos como el familiar, contractual y patrimonial. 
-    p.fs-18px.mb-4 Este conocimiento permite al estudiante comprender los principios que rigen el Derecho Civil y aplicar estos conceptos en situaciones prácticas, consolidando una formación jurídica que facilitará su desarrollo profesional en el campo legal.
+    p.mb-4.mb-md-5 La unidad 2 <strong>Competencias de autoformación y autogestión del aprendizaje</strong>, aborda herramientas y estrategias clave para desarrollar competencias en autoformación y autogestión del aprendizaje. Aprenderás a estructurar y planificar el estudio de forma autónoma, organizar el tiempo de manera eficiente y autoevaluar el propio progreso. A través de técnicas de lectura, toma de notas y gestión de prioridades, podrás enfrentar desafíos académicos y profesionales con mayor autonomía y eficacia, equilibrando estudio, trabajo y descanso. Al finalizar, contarás con habilidades para aprender, administrar el tiempo y evaluar tu avance de manera independiente.
     figure
-      img(src='@/assets/componentes/sintesis.svg', alt='Texto que describa la imagen')
+      img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     
 
 </template>

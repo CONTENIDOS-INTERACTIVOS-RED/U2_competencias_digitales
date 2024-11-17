@@ -1,1 +1,2 @@
-module.exports = 'Unidad 1. Introducción al trabajo en modalidad virtual'
+module.exports =
+  'Unidad 2. Competencias de autoformación y autogestión del aprendizaje'
