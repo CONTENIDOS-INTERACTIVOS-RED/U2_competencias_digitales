@@ -9,7 +9,7 @@
 
         figure.mb-5
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            <iframe width="1903" height="748" src="https://www.youtube.com/embed/Dm6W7zB3U6w" title="La importancia de la planificación del tiempo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         h2.mb-4 Creación de un plan diario y semanal
         p.mb-4 Una planificación diaria y semanal clara permite avanzar hacia los objetivos sin sentirse abrumado:
@@ -61,7 +61,7 @@
               p.mb-0  <strong>Revisión diaria.</strong> Evalúa las tareas completadas al final del día y ajusta el plan para el siguiente día, identificando distracciones o ineficiencias (Fiore, 2007).
             div.d-flex
               img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
-              p.mb-0  <strong>Revisión seminal.</strong> Ofrece una perspectiva amplia del progreso hacia metas a largo plazo, permitiendo hacer ajustes oportunos en hábitos y metas (Bustinduy, 2021).
+              p.mb-0  <strong>Revisión semanal.</strong> Ofrece una perspectiva amplia del progreso hacia metas a largo plazo, permitiendo hacer ajustes oportunos en hábitos y metas (Bustinduy, 2021).
           .d-none.d-xl-block.col-4.px-0(data-aos="fade-left")
             img.h-100(src='@/assets/curso/unidad/img-52.png', alt='Texto que describa la imagen')
 
@@ -94,7 +94,20 @@
           img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-56.svg', alt='Texto que describa la imagen')
           p.pe-xl-5.mb-0 Estas estrategias y herramientas facilitan el establecimiento de una estructura organizada y equilibrada para maximizar la productividad y el bienestar en el aprendizaje autónomo o el trabajo independiente.
 
-
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/275488") Pasquin, F. (2023). ¡No tengo tiempo! Claves para optimizar el tiempo y mejorar la gestión empresarial. FC Editorial.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/DJqOe7r8AEA") COIE UNED. (2020). Gestión del tiempo y planificación [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 </template>
 

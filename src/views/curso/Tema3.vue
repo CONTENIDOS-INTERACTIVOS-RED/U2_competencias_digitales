@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno.text-uppercase(:titulo="'unidad 1. Introducción al trabajo en modalidad virtual'" :subTitulo="'3. Diferenciación entre personas naturales y jurídicas'")
+  BannerInterno.text-uppercase(:titulo="'Unidad 2. Competencias de autoformación y autogestión del aprendizaje'" :subTitulo="'3. Evaluación del aprendizaje personal: autoevaluación y retroalimentación'")
   .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.tema-3.pb-0
     .row.mb-5
       .col-12.col-xl-7.col-xxl-8.d-flex.flex-column
@@ -70,17 +70,38 @@
 
     p.mb-4 Estas técnicas de autoevaluación promueven la reflexión y el análisis crítico, facilitando un aprendizaje más profundo y una mejora continua en el proceso autónomo de aprendizaje.
 
-    .row.bg-azul.bg-full-width.py-4
+    .row.bg-azul.bg-full-width.py-4.mb-5
       div.px-5.pb-md-3.py-4.d-flex
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2 ¿Sabía que la retroalimentación es fundamental para mejorar el aprendizaje? 
           p.mb-5 Le invitamos a leer este documento <strong>Retroalimentación su importancia y cómo buscarla</strong>, y descubrir cómo el seguimiento continuo y el reconocimiento de logros pueden impulsar su motivación y apoyar su progreso académico. En el documento se exploran distintos tipos de retroalimentación, como la formativa, sumativa, correctiva y de pares, que ofrecen perspectivas valiosas sobre el desempeño. 
           a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Técnicas eficaces para la toma de notas
+            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Retroalimentación su importancia y cómo buscarla
              
         .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
           img.h-100(src='@/assets/curso/unidad/img-64.png', alt='Texto que describa la imagen')
+
+    .bg-full-width.border-top-9-azul.mb-5
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://hotmart.com/es/blog/hacer-autoevaluacion") hotmart (2022). ¿Cómo hacer una autoevaluación? [Blog]
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/HaqJzSySgXA") Filosofies (2022). Autoevaluación y coevaluación de una situación de aprendizaje [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+
+
+    .bg-full-width.border-top.actividad(style="background-color: #ebf1f5; border-top: 5px solid #f5c145 !important")
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
 
 </template>
 
@@ -91,6 +112,149 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Entornos Virtuales de Aprendizaje',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            '¿Cuál de las siguientes opciones describe una función básica de un LMS?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Hacer pedidos en línea', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Publicar contenido y calificar tareas',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Compartir videos de entretenimiento',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Descargar música', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Cuál es la mejor forma de organizar los archivos en un LMS para facilitar el acceso?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Subir todos los archivos sin orden específico',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Crear carpetas específicas por tema o semana',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Crear una sola carpeta general para todos los archivos',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Disponer carpetas sin nombre',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Cuál de estas es una ventaja de usar herramientas de videoconferencia?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementa el aislamiento del estudiante',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Facilita la interacción y comunicación en tiempo real',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'Compartir archivos', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Mejora el proceso de enseñanza',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto: '¿Cuál es la etiqueta apropiada en una videoconferencia?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Hablar sin activar el micrófono',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Esperar el turno antes de hablar',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Participar sin previa autorización',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Ingresar a la videoconferencia y de una vez hablar',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Qué acción es adecuada si no deseas que lo interrumpan durante una clase en videoconferencia?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Ignorar a los compañeros', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Silenciar tu micrófono cuando no hablas',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'No ceder nunca la palabra', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Dejar activado el microfono',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

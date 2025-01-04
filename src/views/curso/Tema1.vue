@@ -171,6 +171,8 @@
             .h5.mb-2 Temporales
             p Establecer un plazo específico evita la procrastinación y crea un sentido de urgencia. Ejemplo: “completar un ensayo académico por semana durante tres meses.”
 
+        p.mb-4.text.bold Metas a corto, mediano y largo plazo
+        p.mb-4 Dividir las metas en corto, mediano y largo plazo ayuda a manejar expectativas y evita el agobio. También permite celebrar logros parciales, reforzando la motivación (Cruz & Morales, 2022).
         .row.justify-content-center.card_hover(data-aos="zoom-in-up")
           .col-10.col-sm-9.col-lg-6.col-xl-4.mb-4(data-aos="fade-up-right")
             .custom-image-card.d-flex.justify-content-center.p-4.py-xl-5.h-100.flex-column
@@ -363,7 +365,7 @@
           .row.p-4.px-md-5.py-lg-5.justify-content-between
             .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
               p.text-bold Google Scholar
-              p deal para buscar artículos científicos y estudios académicos de alta calidad (Bautista, 2015).
+              p Ideal para buscar artículos científicos y estudios académicos de alta calidad (Bautista, 2015).
             .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
               figure
                 img(src='@/assets/curso/unidad/img-36.png', alt='Texto que describa la imagen')
@@ -407,7 +409,7 @@
           .div(titulo="Aplicaciones de gestión del aprendizaje")
             p Herramientas como Notion, Trello o Todoist ayudan a organizar actividades, monitorear el progreso, planificar tareas y establecer metas y cronogramas.
           .div(titulo="Lectura digital y recursos en línea")
-            p Google Books, Project Gutenberg y JSTOR permiten acceder a libros electrónicos y artículos académicos.
+            p Bibliotecas digitales como Google Books, Project Gutenberg y JSTOR permiten acceder a libros electrónicos y artículos académicos.
           .div(titulo="Herramientas de vídeos educativos")
             p Plataformas como YouTube, Khan Academy y TED-Ed son útiles para visualizar y entender conceptos complejos a través de contenido visual.
 
@@ -415,7 +417,7 @@
       .col-12.col-lg-7(data-aos="fade-left")
         AcordionA(tipo="b")
           .div(titulo="Redes sociales y comunidades de aprendizaje")
-            p Plataformas como Coursera, edX y Udemy ofrecen una amplia variedad de cursos, desde introducciones hasta especializaciones avanzadas, permitiendo el aprendizaje flexible (Ortiz & Ruiz, 2019).
+            p Grupos en Facebook, Reddit o Discord ofrecen espacios de intercambio de conocimiento sobre distintos temas, mientras que LinkedIn facilita la conexión con profesionales de áreas diversas.
           .div(titulo="Aplicaciones de flashcards y memorización")
             p Aplicaciones como Anki y Quizlet permiten crear tarjetas de estudio digitales para reforzar conocimientos de forma interactiva.
           .div(titulo="Herramientas de creación de contenidos")
@@ -470,7 +472,7 @@
                 img(src='@/assets/curso/unidad/img-45.png', alt='Texto que describa la imagen')
     p.mb-4 Estas técnicas de lectura comprensiva permiten procesar la información de manera efectiva y retener los conocimientos necesarios para el aprendizaje autónomo.
 
-    .row.bg-azul.bg-full-width.py-4
+    .row.bg-azul.mb-5.bg-full-width.py-4
       div.px-5.pb-md-3.py-4.d-flex
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2 ¿Sabías que la toma de notas puede mejorar significativamente su aprendizaje? 
@@ -481,6 +483,21 @@
              
         .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
           img.h-100(src='@/assets/curso/unidad/img-46.png', alt='Texto que describa la imagen')
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/70988") Sierra, C. (2012). Educación virtual, aprendizaje autónomo y construcción de conocimiento. Editorial Politécnico Grancolombiano.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/iOIU4a2AHkk") Ontibon, M. (2020). Aprendizaje autónomo [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 </template>
 
