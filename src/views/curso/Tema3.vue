@@ -75,7 +75,7 @@
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2 ¿Sabía que la retroalimentación es fundamental para mejorar el aprendizaje? 
           p.mb-5 Le invitamos a leer este documento <strong>Retroalimentación su importancia y cómo buscarla</strong>, y descubrir cómo el seguimiento continuo y el reconocimiento de logros pueden impulsar su motivación y apoyar su progreso académico. En el documento se exploran distintos tipos de retroalimentación, como la formativa, sumativa, correctiva y de pares, que ofrecen perspectivas valiosas sobre el desempeño. 
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Retroalimentación su importancia y cómo buscarla.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Retroalimentación su importancia y cómo buscarla
              

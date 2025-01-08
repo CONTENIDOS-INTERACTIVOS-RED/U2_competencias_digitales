@@ -122,7 +122,7 @@
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2 ¿Has considerado la importancia de la autodisciplina y la motivación en el aprendizaje autónomo? 
           p.mb-5 Los invitamos a explorar este documento <strong>Autodisciplina y motivación en el aprendizaje</strong>, que aborda cómo estas habilidades son esenciales para alcanzar el éxito en entornos de estudio independiente. Desde establecer rutinas efectivas hasta mantener una motivación constante y gestionar el tiempo con precisión, este enfoque proporciona estrategias prácticas para desarrollar una organización personal sólida. Descubra cómo la autodisciplina y la motivación, combinadas con una buena gestión del tiempo, pueden transformar su experiencia de aprendizaje y ayudarle a alcanzar sus metas educativas.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" style="max-width: 500px" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" style="max-width: 500px" :href="obtenerLink('/downloads/Anexos_Autodisciplina y motivación en el aprendizaje.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-4 <strong>Anexo.</strong> ¿Has considerado la importancia de la autodisciplina y la motivación en el aprendizaje autónomo? 
              
@@ -477,7 +477,7 @@
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2 ¿Sabías que la toma de notas puede mejorar significativamente su aprendizaje? 
           p.mb-5 Este documento Técnicas eficaces para la toma de notas, presenta técnicas como el método Cornell, mapas mentales, notas abiertas y esquemas para organizar ideas de forma clara y eficiente. También encontrará estrategias de repaso y revisión que fortalecen la memoria y ayudan en la preparación de exámenes. ¡Descubra cómo estas técnicas pueden transformar su estudio y optimizar la retención de información!
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Técnicas eficaces para la toma de notas.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Técnicas eficaces para la toma de notas
              
